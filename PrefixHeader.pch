@@ -1,0 +1,27 @@
+//
+//  PrefixHeader.pch
+//  MusicPlayer
+//
+//  Created by tangwei on 16/1/7.
+//  Copyright © 2016年 tangwei. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef __OBJC__
+#import "YTZPublic_Macro.h"
+#import "Masonry.h" //自动布局框架
+#import "UIImageView+WebCache.h"
+#import "SDWebImageDownloader.h"
+#import "SDWebImageDownloaderOperation.h"
+#import "UtilHelper.h"
+#import "AFNetworking.h"
+#import "AppDelegate.h"
+#import "NetworkManager.h"
+#import "Global.h"
+#import "NirKxMenu.h"
+#import "UIView+Toast.h"//提示HUD
+#endif
+
+#endif
